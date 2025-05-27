@@ -60,7 +60,7 @@ use pocketmine\network\mcpe\protocol\types\entity\EntityMetadataFlags;
 use pocketmine\network\mcpe\protocol\types\entity\EntityMetadataProperties;
 use pocketmine\player\Player;
 use pocketmine\timings\Timings;
-use pocketmine\utils\Binary;
+use Binary;
 use pocketmine\utils\Utils;
 use pocketmine\world\sound\BurpSound;
 use pocketmine\world\sound\EntityLandSound;

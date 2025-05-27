@@ -81,7 +81,7 @@ use pocketmine\scheduler\AsyncPool;
 use pocketmine\Server;
 use pocketmine\ServerConfigGroup;
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\ReversePriorityQueue;
 use pocketmine\utils\Utils;
 use pocketmine\world\biome\Biome;

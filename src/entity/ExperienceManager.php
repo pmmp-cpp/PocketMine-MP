@@ -27,7 +27,7 @@ use pocketmine\entity\utils\ExperienceUtils;
 use pocketmine\event\player\PlayerExperienceChangeEvent;
 use pocketmine\item\Durable;
 use pocketmine\item\enchantment\VanillaEnchantments;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\world\sound\XpCollectSound;
 use pocketmine\world\sound\XpLevelUpSound;
 use function array_rand;

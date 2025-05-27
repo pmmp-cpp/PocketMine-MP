@@ -101,7 +101,7 @@ use pocketmine\network\mcpe\protocol\types\PlayerBlockActionWithBlockInfo;
 use pocketmine\network\PacketHandlingException;
 use pocketmine\player\Player;
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Utils;
 use pocketmine\world\format\Chunk;

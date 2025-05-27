@@ -26,7 +26,7 @@ namespace pocketmine\world;
 use pocketmine\block\Block;
 use pocketmine\block\RuntimeBlockStateRegistry;
 use pocketmine\block\VanillaBlocks;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\world\format\Chunk;
 
 class SimpleChunkManager implements ChunkManager{

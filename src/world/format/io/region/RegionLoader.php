@@ -24,9 +24,9 @@ declare(strict_types=1);
 namespace pocketmine\world\format\io\region;
 
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Binary;
-use pocketmine\utils\BinaryDataException;
-use pocketmine\utils\BinaryStream;
+use Binary;
+use BinaryDataException;
+use BinaryStream;
 use pocketmine\world\format\ChunkException;
 use pocketmine\world\format\io\exception\CorruptedChunkException;
 use function assert;

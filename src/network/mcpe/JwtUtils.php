@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace pocketmine\network\mcpe;
 
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\BinaryStream;
+use BinaryStream;
 use pocketmine\utils\Utils;
 use function base64_decode;
 use function base64_encode;

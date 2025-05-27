@@ -23,6 +23,7 @@ declare(strict_types=1);
 
 namespace pocketmine\data\bedrock\item\upgrade;
 
+use Binary;
 use pocketmine\data\bedrock\block\BlockStateDeserializeException;
 use pocketmine\data\bedrock\block\upgrade\BlockDataUpgrader;
 use pocketmine\data\bedrock\item\BlockItemIdMap;
@@ -37,7 +38,6 @@ use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\ShortTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\network\mcpe\convert\BlockStateDictionary;
-use pocketmine\utils\Binary;
 use function assert;
 
 final class ItemDataUpgrader{

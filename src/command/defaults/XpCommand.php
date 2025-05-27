@@ -29,7 +29,7 @@ use pocketmine\entity\Attribute;
 use pocketmine\lang\KnownTranslationFactory;
 use pocketmine\permission\DefaultPermissionNames;
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\TextFormat;
 use function abs;
 use function count;

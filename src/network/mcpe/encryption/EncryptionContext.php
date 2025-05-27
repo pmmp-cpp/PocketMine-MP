@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace pocketmine\network\mcpe\encryption;
 
 use Crypto\Cipher;
-use pocketmine\utils\Binary;
+use Binary;
 use function bin2hex;
 use function openssl_digest;
 use function openssl_error_string;

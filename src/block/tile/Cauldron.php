@@ -37,7 +37,7 @@ use pocketmine\item\VanillaItems;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Binary;
+use Binary;
 
 final class Cauldron extends Spawnable{
 

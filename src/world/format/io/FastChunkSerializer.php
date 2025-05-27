@@ -23,8 +23,8 @@ declare(strict_types=1);
 
 namespace pocketmine\world\format\io;
 
-use pocketmine\utils\Binary;
-use pocketmine\utils\BinaryStream;
+use Binary;
+use BinaryStream;
 use pocketmine\world\format\Chunk;
 use pocketmine\world\format\PalettedBlockArray;
 use pocketmine\world\format\SubChunk;

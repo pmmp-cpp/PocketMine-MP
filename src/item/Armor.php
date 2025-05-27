@@ -32,7 +32,7 @@ use pocketmine\math\Vector3;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\player\Player;
-use pocketmine\utils\Binary;
+use Binary;
 use pocketmine\utils\Utils;
 use function mt_rand;
 

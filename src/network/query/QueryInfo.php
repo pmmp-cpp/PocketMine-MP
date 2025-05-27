@@ -27,7 +27,7 @@ use pocketmine\player\GameMode;
 use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
-use pocketmine\utils\Binary;
+use Binary;
 use pocketmine\utils\Utils;
 use pocketmine\YmlServerProperties;
 use function array_map;

@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace pocketmine\item;
 
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\Utils;
 use function sprintf;
 use function strlen;

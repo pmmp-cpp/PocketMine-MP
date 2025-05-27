@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace pocketmine\entity\effect;
 
 use pocketmine\color\Color;
-use pocketmine\utils\Limits;
+use Limits;
 use function max;
 
 class EffectInstance{

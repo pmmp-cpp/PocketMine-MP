@@ -26,8 +26,8 @@ namespace pocketmine\data\bedrock\block\upgrade;
 use pocketmine\data\bedrock\block\BlockStateData;
 use pocketmine\data\bedrock\block\BlockStateDeserializeException;
 use pocketmine\nbt\LittleEndianNbtSerializer;
-use pocketmine\utils\BinaryDataException;
-use pocketmine\utils\BinaryStream;
+use BinaryDataException;
+use BinaryStream;
 
 /**
  * Handles translating legacy 1.12 block ID/meta into modern blockstates.

@@ -28,7 +28,7 @@ use pocketmine\network\mcpe\protocol\serializer\PacketBatch;
 use pocketmine\network\mcpe\protocol\serializer\PacketSerializer;
 use pocketmine\Server;
 use pocketmine\timings\Timings;
-use pocketmine\utils\BinaryStream;
+use BinaryStream;
 use function count;
 use function log;
 use function spl_object_id;

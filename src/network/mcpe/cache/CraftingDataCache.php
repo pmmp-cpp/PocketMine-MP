@@ -41,7 +41,7 @@ use pocketmine\network\mcpe\protocol\types\recipe\ShapedRecipe as ProtocolShaped
 use pocketmine\network\mcpe\protocol\types\recipe\ShapelessRecipe as ProtocolShapelessRecipe;
 use pocketmine\timings\Timings;
 use pocketmine\utils\AssumptionFailedError;
-use pocketmine\utils\Binary;
+use Binary;
 use pocketmine\utils\SingletonTrait;
 use Ramsey\Uuid\Uuid;
 use function array_map;

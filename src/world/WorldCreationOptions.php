@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace pocketmine\world;
 
 use pocketmine\math\Vector3;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\Utils;
 use pocketmine\world\generator\Generator;
 use pocketmine\world\generator\normal\Normal;

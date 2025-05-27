@@ -23,10 +23,10 @@ declare(strict_types=1);
 
 namespace pocketmine\data\bedrock\item;
 
+use Binary;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\StringTag;
-use pocketmine\utils\Binary;
 use function array_map;
 use function count;
 

@@ -28,7 +28,7 @@ use pocketmine\item\enchantment\AvailableEnchantmentRegistry as EnchantmentRegis
 use pocketmine\item\Item;
 use pocketmine\item\ItemTypeIds;
 use pocketmine\item\VanillaItems as Items;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\Random;
 use pocketmine\world\Position;
 use function abs;

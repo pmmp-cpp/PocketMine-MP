@@ -29,7 +29,7 @@ use pocketmine\entity\effect\EffectInstance;
 use pocketmine\entity\effect\StringToEffectParser;
 use pocketmine\lang\KnownTranslationFactory;
 use pocketmine\permission\DefaultPermissionNames;
-use pocketmine\utils\Limits;
+use Limits;
 use pocketmine\utils\TextFormat;
 use function count;
 use function strtolower;
