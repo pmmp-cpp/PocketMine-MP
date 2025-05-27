@@ -54,7 +54,7 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/pmmp-cpp/bedrock-protocol"
+			"url": "https://github.com/pmmp-cpp/bedrockprotocol"
 		},
 		{
 			"type": "vcs",
@@ -66,7 +66,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/pmmp-cpp/raklib-ipc"
+			"url": "https://github.com/pmmp-cpp/raklibipc"
 		}
 	],
    "require-dev": {

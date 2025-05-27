@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ceb98091ac3f61f1a4b87708c48dc75a",
+    "content-hash": "6c62e3b3e28fa347be922aad08ee419b",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -256,25 +256,25 @@
         },
         {
             "name": "pocketmine/bedrock-protocol",
-            "version": "38.0.1+bedrock-1.21.80",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmmp/BedrockProtocol.git",
-                "reference": "0c1c13e970a2e1ded1609d0b442b4fcfd24cd21f"
+                "url": "https://github.com/pmmp-cpp/BedrockProtocol.git",
+                "reference": "1d261cfabdc92b927624b394cee7c21687ba2227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BedrockProtocol/zipball/0c1c13e970a2e1ded1609d0b442b4fcfd24cd21f",
-                "reference": "0c1c13e970a2e1ded1609d0b442b4fcfd24cd21f",
+                "url": "https://api.github.com/repos/pmmp-cpp/BedrockProtocol/zipball/1d261cfabdc92b927624b394cee7c21687ba2227",
+                "reference": "1d261cfabdc92b927624b394cee7c21687ba2227",
                 "shasum": ""
             },
             "require": {
+                "ext-binary": "^1.0.0",
                 "ext-json": "*",
                 "php": "^8.1",
-                "pocketmine/binaryutils": "^0.2.0",
                 "pocketmine/color": "^0.2.0 || ^0.3.0",
                 "pocketmine/math": "^0.3.0 || ^0.4.0 || ^1.0.0",
-                "pocketmine/nbt": "^1.0.0",
+                "pocketmine/nbt": "dev-stable",
                 "ramsey/uuid": "^4.1"
             },
             "require-dev": {
@@ -283,64 +283,31 @@
                 "phpstan/phpstan-strict-rules": "^2.0.0",
                 "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "pocketmine\\network\\mcpe\\protocol\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "pocketmine\\network\\mcpe\\protocol\\": "tests/phpunit/"
+                }
+            },
+            "scripts": {
+                "update-create-methods": [
+                    "@php tools/generate-create-static-methods.php"
+                ]
+            },
             "license": [
                 "LGPL-3.0"
             ],
             "description": "An implementation of the Minecraft: Bedrock Edition protocol in PHP",
             "support": {
-                "issues": "https://github.com/pmmp/BedrockProtocol/issues",
-                "source": "https://github.com/pmmp/BedrockProtocol/tree/38.0.1+bedrock-1.21.80"
+                "source": "https://github.com/pmmp-cpp/BedrockProtocol/tree/master"
             },
-            "time": "2025-05-17T11:56:33+00:00"
-        },
-        {
-            "name": "pocketmine/binaryutils",
-            "version": "0.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pmmp/BinaryUtils.git",
-                "reference": "ccfc1899b859d45814ea3592e20ebec4cb731c84"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/ccfc1899b859d45814ea3592e20ebec4cb731c84",
-                "reference": "ccfc1899b859d45814ea3592e20ebec4cb731c84",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
-                "php-64bit": "*"
-            },
-            "require-dev": {
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "~1.10.3",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0.0",
-                "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "pocketmine\\utils\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "description": "Classes and methods for conveniently handling binary data",
-            "support": {
-                "issues": "https://github.com/pmmp/BinaryUtils/issues",
-                "source": "https://github.com/pmmp/BinaryUtils/tree/0.2.6"
-            },
-            "time": "2024-03-04T15:04:17+00:00"
+            "time": "2025-05-27T05:58:47+00:00"
         },
         {
             "name": "pocketmine/callback-validator",
@@ -576,22 +543,22 @@
         },
         {
             "name": "pocketmine/nbt",
-            "version": "1.1.1",
+            "version": "dev-stable",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmmp/NBT.git",
-                "reference": "c3c7b0a7295daeaf7873d90fed5c5d10381d12e1"
+                "url": "https://github.com/pmmp-cpp/NBT.git",
+                "reference": "9b7a72d7ddf16e66d677b38c71aa367c1d7aefd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/NBT/zipball/c3c7b0a7295daeaf7873d90fed5c5d10381d12e1",
-                "reference": "c3c7b0a7295daeaf7873d90fed5c5d10381d12e1",
+                "url": "https://api.github.com/repos/pmmp-cpp/NBT/zipball/9b7a72d7ddf16e66d677b38c71aa367c1d7aefd1",
+                "reference": "9b7a72d7ddf16e66d677b38c71aa367c1d7aefd1",
                 "shasum": ""
             },
             "require": {
+                "ext-binary": "^1.0.0",
                 "php": "^7.4 || ^8.0",
-                "php-64bit": "*",
-                "pocketmine/binaryutils": "^0.2.0"
+                "php-64bit": "*"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
@@ -599,106 +566,108 @@
                 "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^9.5"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "pocketmine\\nbt\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "pocketmine\\nbt\\": "tests/phpunit/"
+                }
+            },
             "license": [
                 "LGPL-3.0"
             ],
             "description": "PHP library for working with Named Binary Tags",
             "support": {
-                "issues": "https://github.com/pmmp/NBT/issues",
-                "source": "https://github.com/pmmp/NBT/tree/1.1.1"
+                "source": "https://github.com/pmmp-cpp/NBT/tree/stable"
             },
-            "time": "2025-03-09T01:46:03+00:00"
+            "time": "2025-05-27T05:58:53+00:00"
         },
         {
             "name": "pocketmine/raklib",
-            "version": "1.1.2",
+            "version": "dev-stable",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmmp/RakLib.git",
-                "reference": "4145a31cd812fe8931c3c9c691fcd2ded2f47e7f"
+                "url": "https://github.com/pmmp-cpp/RakLib.git",
+                "reference": "aa888568875d36f2dcb5f16f5cbb1341de1c71c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/RakLib/zipball/4145a31cd812fe8931c3c9c691fcd2ded2f47e7f",
-                "reference": "4145a31cd812fe8931c3c9c691fcd2ded2f47e7f",
+                "url": "https://api.github.com/repos/pmmp-cpp/RakLib/zipball/aa888568875d36f2dcb5f16f5cbb1341de1c71c0",
+                "reference": "aa888568875d36f2dcb5f16f5cbb1341de1c71c0",
                 "shasum": ""
             },
             "require": {
+                "ext-binary": "^1.0.0",
                 "ext-sockets": "*",
                 "php": "^8.1",
                 "php-64bit": "*",
                 "php-ipv6": "*",
-                "pocketmine/binaryutils": "^0.2.0",
                 "pocketmine/log": "^0.3.0 || ^0.4.0"
             },
             "require-dev": {
                 "phpstan/phpstan": "2.1.0",
                 "phpstan/phpstan-strict-rules": "^2.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "raklib\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
             "description": "A RakNet server implementation written in PHP",
             "support": {
-                "issues": "https://github.com/pmmp/RakLib/issues",
-                "source": "https://github.com/pmmp/RakLib/tree/1.1.2"
+                "source": "https://github.com/pmmp-cpp/RakLib/tree/stable"
             },
-            "time": "2025-04-06T03:38:21+00:00"
+            "time": "2025-05-27T05:58:58+00:00"
         },
         {
             "name": "pocketmine/raklib-ipc",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmmp/RakLibIpc.git",
-                "reference": "ce632ef2c6743e71eddb5dc329c49af6555f90bc"
+                "url": "https://github.com/pmmp-cpp/RakLibIpc.git",
+                "reference": "0169bc7f46f893e54e1e7dac8d1eb6a109eccde0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/RakLibIpc/zipball/ce632ef2c6743e71eddb5dc329c49af6555f90bc",
-                "reference": "ce632ef2c6743e71eddb5dc329c49af6555f90bc",
+                "url": "https://api.github.com/repos/pmmp-cpp/RakLibIpc/zipball/0169bc7f46f893e54e1e7dac8d1eb6a109eccde0",
+                "reference": "0169bc7f46f893e54e1e7dac8d1eb6a109eccde0",
                 "shasum": ""
             },
             "require": {
+                "ext-binary": "^1.0.0",
                 "php": "^8.0",
                 "php-64bit": "*",
-                "pocketmine/binaryutils": "^0.2.0",
-                "pocketmine/raklib": "^0.15.0 || ^1.0.0"
+                "pocketmine/raklib": "dev-stable"
             },
             "require-dev": {
-                "phpstan/phpstan": "1.10.1",
-                "phpstan/phpstan-strict-rules": "^1.0.0"
+                "phpstan/phpstan": "2.1.0",
+                "phpstan/phpstan-strict-rules": "^2.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "raklib\\server\\ipc\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
             "description": "Channel-based protocols for inter-thread/inter-process communication with RakLib",
             "support": {
-                "issues": "https://github.com/pmmp/RakLibIpc/issues",
-                "source": "https://github.com/pmmp/RakLibIpc/tree/1.0.1"
+                "source": "https://github.com/pmmp-cpp/RakLibIpc/tree/master"
             },
-            "time": "2024-03-01T15:55:05+00:00"
+            "time": "2025-05-27T06:02:47+00:00"
         },
         {
             "name": "pocketmine/snooze",
@@ -2770,7 +2739,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "pocketmine/bedrock-protocol": 20,
+        "pocketmine/nbt": 20,
+        "pocketmine/raklib": 20,
+        "pocketmine/raklib-ipc": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -2799,9 +2773,10 @@
         "ext-yaml": ">=2.0.0",
         "ext-zip": "*",
         "ext-zlib": ">=1.2.11",
+        "ext-binary": "^1.0.0",
         "composer-runtime-api": "^2.0"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.1.0"
     },
